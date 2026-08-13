@@ -214,6 +214,45 @@
                 font-size: 3rem;
             }
         }
+        .hero {
+    gap: 60px;
+}
+
+.hero-image {
+    flex: 0 0 300px;
+}
+
+.hero-image img {
+    width: 300px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 24px;
+    display: block;
+}
+
+@media (max-width: 700px) {
+    .hero {
+        flex-direction: column;
+        text-align: left;
+        gap: 35px;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-image {
+        flex: none;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-image img {
+        width: min(280px, 85vw);
+        height: 350px;
+    }
+}
     </style>
 </head>
 
@@ -234,36 +273,37 @@
     <!-- Hero -->
     <header class="hero">
 
-        <div class="hero-content">
+    <div class="hero-content">
 
-            <span class="tag">ENGLISH TEACHER · TEFL PROFESSIONAL</span>
+        <span class="tag">ENGLISH TEACHER · TEFL PROFESSIONAL</span>
 
-            <h1>
-                Nidal Loucif
-            </h1>
+        <h1>
+            Nidal Loucif
+        </h1>
 
-            <p>
-                English teacher with a TEFL Level 5 Diploma and experience
-                teaching English in classroom and online environments.
-                Explore my teaching portfolio, lesson demonstrations and
-                learning resources.
-            </p>
+        <p>
+            English teacher with a TEFL Level 5 Diploma and experience teaching English in classroom and online environments. Explore my teaching portfolio, lesson demonstrations and learning resources.
+        </p>
 
-            <div class="buttons">
+        <div class="buttons">
 
-                <a class="button primary" href="#lessons">
-                    View Teaching Portfolio
-                </a>
+            <a class="button primary" href="#lessons">
+                View Teaching Portfolio
+            </a>
 
-                <a class="button secondary" href="#about">
-                    About Me
-                </a>
-
-            </div>
+            <a class="button secondary" href="#about">
+                About Me
+            </a>
 
         </div>
 
-    </header>
+    </div>
+
+    <div class="hero-image">
+        <img src="assets/images/nidal-profile.jpg" alt="Nidal Loucif">
+    </div>
+
+</header>
 
 
     <!-- About -->
