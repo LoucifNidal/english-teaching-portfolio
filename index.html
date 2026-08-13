@@ -1,1 +1,393 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nidal English | English Teaching Portfolio</title>
+
+    <meta name="description" content="Nidal Loucif — English Teacher and TEFL Professional. Teaching portfolio, lesson demonstrations, resources and qualifications.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f8fafc;
+            color: #172033;
+            line-height: 1.6;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 8%;
+            background: white;
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .logo {
+            font-size: 1.3rem;
+            font-weight: 700;
+        }
+
+        nav a {
+            color: #172033;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 0.95rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            padding: 70px 8%;
+            background: white;
+        }
+
+        .hero-content {
+            max-width: 750px;
+        }
+
+        .tag {
+            display: inline-block;
+            margin-bottom: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 7vw, 5rem);
+            line-height: 1.05;
+            margin-bottom: 25px;
+        }
+
+        .hero p {
+            max-width: 650px;
+            font-size: 1.15rem;
+            color: #526070;
+            margin-bottom: 30px;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 22px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            border: 1px solid #172033;
+        }
+
+        .button.primary {
+            background: #172033;
+            color: white;
+        }
+
+        .button.secondary {
+            color: #172033;
+            background: white;
+        }
+
+        section {
+            padding: 80px 8%;
+        }
+
+        .section-title {
+            max-width: 700px;
+            margin-bottom: 40px;
+        }
+
+        .section-title h2 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+
+        .section-title p {
+            color: #667085;
+        }
+
+        .about {
+            background: #f1f5f9;
+        }
+
+        .about-text {
+            max-width: 800px;
+            font-size: 1.05rem;
+        }
+
+        .lessons {
+            background: white;
+        }
+
+        .lesson-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .lesson-card {
+            border: 1px solid #e2e8f0;
+            border-radius: 14px;
+            padding: 30px;
+            background: white;
+        }
+
+        .lesson-card h3 {
+            margin-bottom: 10px;
+        }
+
+        .lesson-card p {
+            color: #667085;
+            margin-bottom: 20px;
+        }
+
+        .lesson-status {
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .coming-soon {
+            color: #667085;
+        }
+
+        .contact {
+            background: #172033;
+            color: white;
+        }
+
+        .contact p {
+            max-width: 650px;
+            margin-bottom: 25px;
+            color: #d1d5db;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #111827;
+            color: #9ca3af;
+            font-size: 0.85rem;
+        }
+
+        @media (max-width: 700px) {
+
+            nav {
+                padding: 18px 5%;
+            }
+
+            nav a {
+                margin-left: 12px;
+                font-size: 0.85rem;
+            }
+
+            .hero {
+                padding: 60px 5%;
+            }
+
+            section {
+                padding: 60px 5%;
+            }
+
+            h1 {
+                font-size: 3rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Nidal English</div>
+
+        <div>
+            <a href="#about">About</a>
+            <a href="#lessons">Lessons</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+
+    <!-- Hero -->
+    <header class="hero">
+
+        <div class="hero-content">
+
+            <span class="tag">ENGLISH TEACHER · TEFL PROFESSIONAL</span>
+
+            <h1>
+                Nidal Loucif
+            </h1>
+
+            <p>
+                English teacher with a TEFL Level 5 Diploma and experience
+                teaching English in classroom and online environments.
+                Explore my teaching portfolio, lesson demonstrations and
+                learning resources.
+            </p>
+
+            <div class="buttons">
+
+                <a class="button primary" href="#lessons">
+                    View Teaching Portfolio
+                </a>
+
+                <a class="button secondary" href="#about">
+                    About Me
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- About -->
+    <section class="about" id="about">
+
+        <div class="section-title">
+            <h2>About Me</h2>
+
+            <p>
+                Teaching English through practical, engaging and
+                learner-centred lessons.
+            </p>
+        </div>
+
+        <div class="about-text">
+
+            <p>
+                I am an English teacher and TEFL professional with experience
+                working with learners in classroom and online settings.
+                My teaching focuses on practical communication, clear
+                objectives and creating opportunities for learners to use
+                English confidently.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- Lessons -->
+    <section class="lessons" id="lessons">
+
+        <div class="section-title">
+
+            <h2>Teaching Portfolio</h2>
+
+            <p>
+                Sample lessons demonstrating lesson planning, classroom
+                interaction, digital teaching and practical English.
+            </p>
+
+        </div>
+
+
+        <div class="lesson-grid">
+
+            <!-- Lesson 1 -->
+            <article class="lesson-card">
+
+                <h3>
+                    Handling a Problem at the Airport
+                </h3>
+
+                <p>
+                    B1 · Functional English · Speaking
+                </p>
+
+                <p>
+                    A practical lesson focused on helping learners
+                    communicate politely when assisting passengers with
+                    common airport problems.
+                </p>
+
+                <span class="lesson-status">
+                    ✓ Demonstration Ready
+                </span>
+
+            </article>
+
+
+            <!-- Lesson 2 -->
+            <article class="lesson-card">
+
+                <h3>
+                    Young Learner English
+                </h3>
+
+                <p>
+                    Young Learners · Vocabulary & Communication
+                </p>
+
+                <p>
+                    A learner-centred lesson designed to introduce and
+                    practise English through interactive activities.
+                </p>
+
+                <span class="lesson-status coming-soon">
+                    Teaching Demonstration Coming Soon
+                </span>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+
+        <div class="section-title">
+
+            <h2>Let's Connect</h2>
+
+            <p>
+                Interested in teaching opportunities, collaboration or
+                learning more about my work?
+            </p>
+
+        </div>
+
+        <a class="button secondary" href="mailto:your-email@example.com">
+            Contact Me
+        </a>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        © 2026 Nidal Loucif · Nidal English
+
+    </footer>
+
+</body>
+</html>
