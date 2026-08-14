@@ -115,6 +115,35 @@
             opacity: 0.9;
         }
 
+        .materials {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.material {
+    text-align: center;
+}
+
+.material h3 {
+    margin-bottom: 15px;
+}
+
+.material img {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+}
+
+@media (max-width: 700px) {
+    .materials {
+        grid-template-columns: 1fr;
+    }
+}
+
         footer {
             text-align: center;
             padding: 25px;
@@ -273,24 +302,38 @@
 
     </section>
 
+<section class="section">
 
-    <section class="section">
+    <h2>Teaching Materials</h2>
 
-        <h2>Teaching Materials</h2>
+    <p>
+        The lesson is supported by visual materials, a language bank,
+        controlled practice activities and airport problem cards.
+    </p>
 
-        <p>
-            The lesson is supported by visual materials, a language bank,
-            controlled practice activities and airport problem cards.
-        </p>
+    <div class="materials">
 
-        <br>
+        <div class="material">
+            <h3>Airport Role-Play Card</h3>
 
-        <p>
-            The complete materials will be available below.
-        </p>
+            <img
+                src="../assets/images/lesson1-roleplay-card.png"
+                alt="Airport role-play card for the lesson"
+            >
+        </div>
 
-    </section>
+        <div class="material">
+            <h3>Airport Language Bank</h3>
 
+            <img
+                src="../assets/images/lesson1-language-bank.png"
+                alt="Airport language bank for the lesson"
+            >
+        </div>
+
+    </div>
+
+</section>
 
     <section class="section">
 
