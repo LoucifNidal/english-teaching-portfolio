@@ -232,9 +232,12 @@
 
 @media (max-width: 700px) {
     .hero {
-        flex-direction: column;
-        text-align: left;
-        gap: 35px;
+        .hero {
+    flex-direction: column;
+    text-align: left;
+    gap: 35px;
+    min-height: auto;
+    padding: 60px 5%;
     }
 
     .hero-content {
@@ -249,9 +252,11 @@
     }
 
     .hero-image img {
-        width: min(280px, 85vw);
-        height: 350px;
-    }
+    width: min(300px, 85vw);
+    height: auto;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
 }
     </style>
 </head>
